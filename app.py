@@ -52,7 +52,7 @@ def send_message_to_model(message, image_path):
 # Streamlit app
 def main():
     st.title("Gemini 1.5 Pro, UI to Code 👨‍💻 ")
-    st.subheader('Made with ❤️ by [Skirano](https://x.com/skirano)')
+    st.subheader('Made by Mudaliar Saurabh)
 
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
